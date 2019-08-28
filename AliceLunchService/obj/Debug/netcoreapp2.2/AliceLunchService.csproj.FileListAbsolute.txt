@@ -1,0 +1,14 @@
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\bin\Debug\netcoreapp2.2\AliceLunchService.deps.json
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\bin\Debug\netcoreapp2.2\AliceLunchService.runtimeconfig.json
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\bin\Debug\netcoreapp2.2\AliceLunchService.runtimeconfig.dev.json
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\bin\Debug\netcoreapp2.2\AliceLunchService.dll
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.csprojAssemblyReference.cache
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.csproj.CoreCompileInputs.cache
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.RazorAssemblyInfo.cache
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.RazorAssemblyInfo.cs
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.AssemblyInfoInputs.cache
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.AssemblyInfo.cs
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.RazorTargetAssemblyInfo.cache
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\bin\Debug\netcoreapp2.2\AliceLunchService.pdb
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.dll
+C:\Users\vs19\Source\Repos\AliceLunchService\AliceLunchService\obj\Debug\netcoreapp2.2\AliceLunchService.pdb
