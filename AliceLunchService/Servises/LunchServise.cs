@@ -173,5 +173,16 @@ namespace AliceLunchService.Servises
                 KeyWords = new List<string[]>() { new string[] { "помощь" } }
             });*/
         }
+
+        public string ProcessLunchRequest(AliceRequest request)
+        {
+            if (request.Request.nlu.tokens.Count() == 0)
+            {
+                return "";
+            } else
+            {
+
+            }
+        }
     }
 }
