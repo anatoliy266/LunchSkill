@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using AliceLunchService.Models;
+using AliceLunchService.Servises;
 
 namespace AliceLunchService.Controllers
 {
@@ -17,9 +18,8 @@ namespace AliceLunchService.Controllers
         [HttpPost]
         public AliceResponse Post([FromBody] AliceRequest request)
         {
-
+            var lunchService = new LunchServise();
+            request.Reply(lunchService.ProcessLunchRequest(request));
         }
-
-        
     }
 }
