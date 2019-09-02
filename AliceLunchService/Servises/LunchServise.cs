@@ -279,26 +279,83 @@ namespace AliceLunchService.Servises
                         }
                     case 7:
                         {
+                            //cold
+                            DataSet data = new DataSet();
+
+                            SqlCommand command = new SqlCommand("AliseLunchServise", this.Connect());
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.AddWithValue("session", request.Session.SessionId);
+                            command.Parameters.AddWithValue("action", "GET");
+                            command.Parameters.AddWithValue("target", "MENU");
+                            SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                            adapter.Fill(data);
                             break;
                         }
                     case 8:
                         {
+                            //hot
+                            DataSet data = new DataSet();
+
+                            SqlCommand command = new SqlCommand("AliseLunchServise", this.Connect());
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.AddWithValue("session", request.Session.SessionId);
+                            command.Parameters.AddWithValue("action", "GET");
+                            command.Parameters.AddWithValue("target", "MENU");
+                            SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                            adapter.Fill(data);
                             break;
                         }
                     case 9:
                         {
+                            //drink
+                            DataSet data = new DataSet();
+
+                            SqlCommand command = new SqlCommand("AliseLunchServise", this.Connect());
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.AddWithValue("session", request.Session.SessionId);
+                            command.Parameters.AddWithValue("action", "GET");
+                            command.Parameters.AddWithValue("target", "MENU");
+                            SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                            
+
+                            adapter.Fill(data);
                             break;
                         }
                     case 10:
                         {
+                            //orderbegin
+                            DataSet data = new DataSet();
+
+                            SqlCommand command = new SqlCommand("AliseLunchServise", this.Connect());
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.AddWithValue("session", request.Session.SessionId);
+                            command.Parameters.AddWithValue("action", "ADD");
+                            command.Parameters.AddWithValue("target", "NEWSESSION");
+                            SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                            adapter.Fill(data);
                             break;
                         }
                     case 11:
                         {
+                            //addToOrder
+                            DataSet data = new DataSet();
+
+                            SqlCommand command = new SqlCommand("AliseLunchServise", this.Connect());
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.AddWithValue("session", request.Session.SessionId);
+                            command.Parameters.AddWithValue("action", "ADD");
+                            SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                            adapter.Fill(data);
                             break;
                         }
                     case 12:
                         {
+                            //order end
                             break;
                         }
                     case 13:
